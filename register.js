@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name     Unnamed Script 164581
+// @name     CTFd Mass-Register
 // @version  1
 // @grant    none
 // @include  http://localhost/register
@@ -15,9 +15,9 @@ function makeid(length) {
     return result;
  }
 
- var username = makeid(10)
- var password = makeid(10)
- var email = makeid(5) + '@' + makeid(5) + '.com' 
+ var username = makeid(20)
+ var password = makeid(20)
+ var email = makeid(10) + '@' + makeid(3) + '.com' 
 
  document.getElementsByName('name')[0].value = username
  document.getElementsByName('email')[0].value = email
