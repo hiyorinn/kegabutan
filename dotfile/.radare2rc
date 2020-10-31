@@ -1,0 +1,2 @@
+#.radare2rc                                                                                                                    
+e cfg.fortunes.clippy = true
